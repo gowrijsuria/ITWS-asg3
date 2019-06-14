@@ -1,0 +1,2 @@
+23 20 15-21 */2 * [ `date +\%u` = 3 ] find ~/ -mtime -90 | xargs -n1 |xargs -I {} scp {} gowri.lekshmy@mirage.iiit.ac.in:~
+
